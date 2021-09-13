@@ -32,10 +32,6 @@ export default class Top5Model {
         this.nextListId = 0;
     }
 
-    getListCount() {
-        return this.top5Lists.length;
-    }
-
     getList(index) {
         return this.top5Lists[index];
     }
